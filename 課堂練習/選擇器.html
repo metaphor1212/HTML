@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS選擇器</title>
+    <!-- 內部樣式/CSS選擇器 -->
+    <style>
+      h3{color:blueviolet;}
+      p{color: lightblue;font-size: 30px;}
+      h2,h4{color: green;font-size: 40px;}
+
+      .cake1{color: pink;font-size: 20px;}
+      .cake2{color: palevioletred;}
+
+      /* 指定方法1: 標籤選擇器.類別選擇器(中間無空白) */
+      h4.cake3{
+        color: yellowgreen;
+        font-size: 40px;
+        font-weight: normal;
+      }
+
+      /* 指定方法2: 標籤選擇器 .類別選擇器(有空白) */
+      h4 .cake3{
+        color: orange;
+        font-size: 30px;
+        font-weight: normal;
+      }
+
+      /* 指定方法3: 標籤選擇器>.類別選擇器 (中間加>符號) */
+      h4 > .cake3{
+        color: rgb(63, 50, 134);
+        font-size: 30px;
+        font-weight: 25px;
+      }
+
+      *{font-size: 20px;}
+
+    </style>
+    
+
+  </head>
+  <body>
+    <h3>AAA</h3>
+    <h3>BBB</h3>
+    <p>CCC</p>
+    <h2>DDD</h2>
+    <h4>EEE</h4>
+    <hr>
+
+    <p class="cake1">cake1標題元素</p>
+    <p class="cake2">cake2標題元素</p>
+    <h2 class="cake2">哈哈哈</h2>
+
+    <h3 class="cake3">呵呵呵</h3>
+    <h4 class="cake3">指定用法1 無空白</h4>
+
+    <h4>外層標題元素
+      <span class="cake3">第一層元素57</span>
+      <span class="cake2">第一層58
+        <span class="cake3">第二層59</span>
+      </span>
+      
+    </h4>
+
+    <h3>ID選擇器</h3>
+    <p></p>
+
+  </body>
+</html>

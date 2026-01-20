@@ -1,0 +1,82 @@
+/* 外層容器 */
+.box{
+  border: 2px solid black;
+}
+.image{
+  border: 2px solid black;
+  /* width: 1259px; */
+  height: 300px;
+}
+.content{
+  border: 2px solid black;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0 20%;
+}
+
+
+
+/* 內層元素 */
+.item{
+  width: 100px;
+  height: 50px;
+  border: 1px solid blueviolet;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.navbar{
+  width: 100px;
+  height: 45px;
+  border: 1px solid blue;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.left{
+  width: 30%;
+}
+.right{
+  width: 70%;
+}
+
+/* 標籤寬度 */
+aside{width: 50%;}
+main{width: 50%;}
+
+/* 清單 */
+.list{
+  list-style: none; 
+}
+
+
+/* 彈性盒子 */
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex3{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.flex4{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 50px;
+}
+
+.flex5{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

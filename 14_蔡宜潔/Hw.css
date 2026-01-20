@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "微軟正黑體";
+}
+
+body{
+  background-color: white;
+} 
+
+/* header */
+header{
+  height: 120px;
+  /* border: 2px solid black; */
+  background-color: rgb(127, 183, 209);
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loge{
+  height: 60px;
+}
+.navitem{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+nav a:hover{
+  color: black;
+}
+
+.login{
+  text-decoration: none;
+  color: rgb(92, 91, 91);
+}
+.login2 a:hover{
+  color: black;
+}
+
+/* section */
+section{
+  margin: 10px 0 0 0;
+}
+.wrapper{
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  background-image: url(./image/karmar.jpg );
+  background-color: rgba(163, 185, 193, 0.432);
+  background-blend-mode:darken ;
+  background-size: cover;
+  background-position: 5px;
+}
+h1{
+  color: white;
+  text-align: center;
+  padding: 40px 0 60px 0;
+  position: absolute;
+  top: 400px;
+  left: 700px;
+}
+
+
+/*section2*/
+.section2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 60px;
+  margin: 10px 30px;
+}
+aside{
+  width: 20%;
+}
+main{
+  width: 70%;
+  /* margin: 0 0 0 50px; */
+}
+
+/*section2-aside*/
+aside{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 10px;
+}
+
+.button{
+    /* font-size: 1.4rem; */
+    background: rgb(106, 165, 175);
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0;
+  }
+  aside a:hover{
+    color: black;
+    background-color: rgb(160, 239, 255)
+  }
+
+  .album img{
+    width: 160px;
+  }
+
+/*section2-main*/
+main{
+  display: flex;
+  flex-direction: column;
+  margin: 10px; 
+}
+.line{
+  border-bottom: 1.5px solid black;
+  margin: 10px 0;
+}
+
+.under{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.button2{
+  background: rgba(106, 165, 175, 0.733);
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: normal;
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 50;
+  /* margin: 0 30px;   */
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 0 0 30px;
+}
+
+.list{
+  list-style: none;
+  padding: 0;
+}
+.song{
+  text-align-last: justify;
+  padding: 0 0 80% 0;
+} 
+
+/* aside2 */
+.aside2{
+  display: flex;
+  justify-content: flex-end;
+}
+.aside2 img{
+  width: 30px;
+  margin: 10px;
+}
+
+/* footer */
+footer{
+  background-color: rgb(127, 183, 209);
+  text-align: right;
+  padding: 10px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字樣式</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=LXGW+WenKai+TC&family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    
+    <style>
+      @font-face{
+        src: url(./fonts/Cursive_Script.ttf);
+        font-family:"Cursive_Script";
+      }
+
+      .font1{font-family: "標楷體";}
+
+      .font2{font-family: "Cursive_Script";}
+
+      .fontgoogle1{font-family: "BBH Bartle"；}
+      .fontgoogle2{font-family: "Noto Sans TC"；}
+      .fontgoogle3{font-family: "LXGW WenKai TC"}
+      .fontgoogle4{font-family: "BBH Bartle","Noto Sans TC" ;}
+
+      .font4{font-style: normal;}
+      .font5{font-style: italic;}
+      .font6{font-style: oblique;}
+
+      .underline{text-decoration-line:underline ;}
+      .all{text-decoration: overline red italic;}
+
+      p{line-height: 2em;}
+      
+      h2{text-align: center;}
+
+      .box{
+        border: 1px solid red;
+        line-height: 100px;
+        height: 100px;
+        text-align: center;
+      }
+      
+    </style>
+
+    
+
+  </head>
+  <body>
+    <p>預設字體</p>
+    <p class="font1">font1 標楷體</p>
+    <p class="font2">font2 Cursive_Script</p>
+    <p class="fontgoogle1">google BHH字型</p>
+    <p class="fontgoogle2">google Note字型</p>
+    <p class="fontgoogle3">google LXGW字型</p>
+    <p class="fontgoogle4">google BHH,Note字型</p>
+    <p></p>
+
+    <hr />
+
+    <h3>文字樣式</h3>
+    <p class="font4">正常字體</p>
+    <p class="font5">斜體</p>
+    <p class="font6">斜角體</p>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ab maiores atque veritatis numquam molestias fugit laboriosam voluptatem? (Voluptas hic mollitia veniam repellendus? Assumenda explicabo beatae illo?) Cupiditate, quibusdam maxime?
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ab maiores atque veritatis numquam molestias fugit laboriosam voluptatem?<span class="font5">Voluptas hic mollitia veniam repellendus? Assumenda explicabo beatae illo?</span> Cupiditate, quibusdam maxime?</p>
+
+    <h3>大小寫</h3>
+
+    <h3>文字裝飾線</h3>
+    <p class="underline">底線字</p>
+    <!-- !!! -->
+    <h4 class="all">綜合字</h4>
+
+    <p>Lorm</p>
+    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio aliquid nobis hic ut. Dolorum reiciendis amet placeat unde itaque ea, dicta vero odio? Eveniet distinctio ullam consectetur soluta rerum animi?</h2>
+
+    <h3></h3>
+    
+    <h3>文字垂直對齊</h3>
+    <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, maiores modi quasi placeat impedit est quidem, at repudiandae ab, sed cumque molestiae quaerat officiis! Delectus aliquid culpa possimus beatae eveniet!</div>
+
+    <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, maiores modi quasi placeat impedit est quidem, at repudiandae ab, sed cumque molestiae quaerat officiis! Delectus aliquid culpa possimus beatae eveniet!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, maiores modi quasi placeat impedit est quidem, at repudiandae ab, sed cumque molestiae quaerat officiis! Delectus aliquid culpa possimus beatae eveniet!</div>
+  
+  </body>
+</html>

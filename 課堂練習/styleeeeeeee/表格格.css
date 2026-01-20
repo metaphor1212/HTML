@@ -1,0 +1,25 @@
+table{
+  width: 1200px;
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+
+th,td{
+  border: 2px solid gray;
+  text-align: center;
+  height: 50px;
+}
+
+thead tr{
+  background-color: rgb(156, 126, 156);
+  color: white;
+}
+
+tbody tr:nth-child(2n){
+  background-color: rgb(221, 221, 221);
+}
+
+tbody tr:hover{
+  background-color: rgb(192, 217, 231);
+}
+

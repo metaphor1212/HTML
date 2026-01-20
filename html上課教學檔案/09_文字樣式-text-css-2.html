@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>文字樣式 - text css -2</title>
+    <!-- Google Fonts 、 Fontawesome 、 外掛樣式表 要先引入 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=LXGW+WenKai+TC&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 再使用內部樣式表 -->
+    <style>
+      @font-face {
+        src: url(./fonts/Cursive_Script.ttf);
+        font-family: "Cursive_Script";
+      }
+
+      p {
+        font-size: 30px;
+      }
+
+      .font1 {
+        font-family: "標楷體";
+      }
+
+      .font2 {
+        font-family: "新細明體";
+      }
+
+      .font3 {
+        font-family: "Cursive_Script";
+      }
+
+      .google1 {
+        font-family: "LXGW WenKai TC", cursive;
+      }
+
+      .google2 {
+        font-family: "BBH Bogle";
+      }
+
+      .google3 {
+        font-family: "BBH Bogle", "LXGW WenKai TC";
+      }
+    </style>
+  </head>
+  <body>
+    <h2>文字字型</h2>
+    <p>預設字體</p>
+    <p class="font1">標楷體</p>
+    <p class="font2">新細明體</p>
+    <p class="font3">font face 引入的特殊字型</p>
+    <p class="google1">google fonts 字型1</p>
+    <p class="google2">google fonts 字型2</p>
+    <p class="google3">google fonts 字型3</p>
+
+    <hr />
+    <h2>文字樣式</h2>
+
+    <hr />
+    <h2>文字大小寫轉換</h2>
+
+    <hr />
+    <h2>文字裝飾(線條)</h2>
+
+    <hr />
+    <h2>文字裝飾(樣式)</h2>
+
+    <hr />
+    <h2>文字裝飾(顏色)</h2>
+
+    <hr />
+    <h2>文字裝飾(速寫)</h2>
+  </body>
+</html>

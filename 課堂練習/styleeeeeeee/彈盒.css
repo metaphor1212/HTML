@@ -1,0 +1,16 @@
+.box{
+  height: 60px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.items{
+  width: 100px;
+  /* height: 60px; */
+  background-color: olive;
+}

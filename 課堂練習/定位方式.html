@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>定位</title>
+
+  <style>
+    .r {
+        border: 2px solid blue;
+        /* 原點是自己本身左上角，保留原始位置 */
+        /* position: relative;
+        top: 600px;
+        left: 400px; */
+      }
+
+      .f{
+        border: 2px solid yellowgreen;
+        /* 原點永遠是視窗左上角，不占任何空間 */
+        position: fixed;
+        /* top: 0;
+        left: 0; */
+        right: 20px;
+        bottom: 20px;
+      }
+  </style>
+</head>
+<body>
+  <!-- <div class="r" id="top">relative</div> -->
+  <a href="#top" class="f">
+      <div>fixed</div>
+    </a>
+  
+  
+
+</body>
+</html>

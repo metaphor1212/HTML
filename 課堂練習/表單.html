@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單</title>
+    <link rel="stylesheet" href="./styleeeeeeee/表單控制.css" />
+  </head>
+  <body>
+    <!-- 表單結構 控制盒子 -->
+    <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+      <fieldset>
+        <legend>基本資料一</legend>
+        <div class="q1">
+          <label class="t1" for="name">姓名:</label>
+          <input type="text" id="name" name="myname" value="王小明" placeholder="請輸入姓名"/>
+        </div>
+
+       <div class="q1">
+          <label class="t1" for="password">密碼:</label>
+          <input type="password" id="password" name="password" maxlength="8" minlength="2"/>
+        </div>
+
+        <div class="q1">
+          <label class="t1" for="memo">備忘錄:</label>
+          <textarea id="memo" name="user memo" cols="30" rows="10"></textarea>
+          </div>
+      </fieldset>
+      
+      
+
+      <fieldset>
+        <legend>基本資料二</legend>
+        <div class="q1"></div>
+          <span class="t1">性別</span>
+          <label><input type="radio" name="userGender" value="male">男</label>
+          <label><input type="radio" name="userGender" value="female">女</label>
+      
+        <div class="q1"></div>
+          <span class="t1">食物</span>
+          <label><input type="checkbox" name="food" value="cake">cake</label>
+          <label><input type="checkbox" name="food" value="candy">candy</label>
+          <label><input type="checkbox" name="food" value="cola">cola</label>
+          <label><input type="checkbox" name="food" value="coconut">coconut</label>
+
+      </fieldset>
+      <!-- 下拉、檔案上傳 -->
+        <legend>下拉、檔案上傳</legend>
+        <div class="q1"></div>
+          <span class="t1">下拉選單</span>
+          <select name="city" id="">
+            <option value="CITY1">一號</option>
+            <option value="CITY2">二號</option>
+            <option value="CITY3">三號</option>
+            <option value="CITY4">四號</option>
+          </select>
+      </fieldset>
+      
+
+
+      <fieldset>
+        <legend>日期與文字</legend>
+        <div class="q1">
+          <label for="mydate" class="t1">日曆</label>
+          <input type="date" id="mydate" name="userdate" value="2025-12-20" min="2025-21-01" max="2025-12-31">
+        </div>
+
+        <div class="q1">
+          <label for="email">郵件</label>
+          <input type="email" id="email" name="useremail">
+        <br />
+
+          <label for="url">網址</label>
+          <input type="url" id="url" name="userurl">
+        <br />
+
+          <label for="tel">手機</label>
+          <input type="tel" id="tel" name="usertel">
+        <br />
+
+          <label for="search">搜尋</label>
+          <input type="search" id="search" name="usersearch">
+        <br />
+
+      </fieldset>
+      
+
+      
+
+      </div>
+
+      <fieldset>
+        <legend>其他控制項</legend>
+        <div class="div"></div>
+          <lable class="t1" for="mycolor">color</lable>
+          <input type="color" id="color" name="usercolor" value="">
+      </fieldset>
+
+      <div class="q1">
+        <input type="submit"/>
+        <input type="reset" value="清除"/>
+        <input type="button" id="" value="一般按鈕1"/>
+        <button type="button" id="">一般按鈕2</button>
+      </div>
+
+    </form>
+
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+
+    <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+      <label for="name">姓名:</label>
+      <input type="text" id="name" name="myname" value="王小明" placeholder="請輸入姓名">
+      <hr />
+
+      <label for="password">密碼:</label>
+      <input type="password" id="password" name="password" maxlength="8" minlength="2">
+      <hr />
+
+      <label for="memo">備忘錄:</label>
+      <textarea id="memo" name="user memo" cols="30" rows="10"></textarea>
+      <hr />
+
+      <input type="submit"/>
+      <input type="reset" value="清除"/>
+      <input type="button" id="" value="一般按鈕1"/>
+      <button type="button" id="">一般按鈕2</button>
+    </form>
+
+
+
+  </body>
+</html>
